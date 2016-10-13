@@ -1,0 +1,237 @@
+/**************/
+/* Custom CSS */
+/**************/
+a:hover{
+text-decoration: none;
+}
+
+#top{
+	background-color: #2eb8b8;
+	width:100%;
+	margin:0px;
+	padding:22px;
+	text-align: center;
+	color: white;
+	font-size:37pt;
+	font-family: 'Comfortaa', cursive;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+
+#day{
+	background-color: #91D8FD;
+	/*width:100%;*/
+	height:100%;
+	margin:0px;
+	padding-top:17.7% ;
+	padding-bottom:17% ;
+	text-align: center;
+	color: white;
+	font-size:33pt;
+	font-family: 'Comfortaa', cursive;
+	font-weight: bold;
+}
+
+#dayp{
+	background-color: #91D8FD;
+	/*width:100%;*/
+	margin:0px;
+	padding:30px 20px 70px 50px;
+	text-align: center;
+	color: white;
+	font-size:20pt;
+	font-family: 'Comfortaa', cursive;
+	font-weight: bold;
+}
+
+#night{
+	background-color: #1E3049;
+	height:100%;
+	margin:0px;
+	padding-top:17%;
+	padding-bottom: 17%;
+	text-align: center;
+	color: white;
+	font-size:33pt;
+	font-family: 'Comfortaa', cursive;
+	font-weight: bold;
+}
+
+#nightp{
+	background-color: #1E3049;
+	/*width:100%;*/
+	margin:0px;
+	/*margin-left: 20px;*/
+	/*margin-right: 20px;*/
+	padding:30px 40px 70px 40px;
+	text-align: center;
+	color: white;
+	font-size:20pt;
+	font-family: 'Comfortaa', cursive;
+	font-weight: bold;
+}
+
+.soyc{
+position: absolute;
+margin-left: 37%;
+margin-top:11%;
+/*z-index: 1;*/
+}
+
+#row{
+	height: screenHeight;
+	z-index:-1;
+}
+
+.centered{
+	text-align: center;
+}
+
+/*#card-holder{
+	margin-top: 50px;
+}*/
+
+#jscontainer {
+	font-size: 15pt;
+	padding-left: 40px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 380px;
+    white-space: nowrap;
+    /*margin-bottom: 30px;*/
+    background-color: #91D8FD;
+}
+
+#jscontainer2 {
+	font-size: 15pt;
+	padding-left: 40px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 380px;
+    white-space: nowrap;
+    /*margin-bottom: 30px;*/
+    background-color: #1E3049;
+}
+	
+.left{
+	float: left;
+}
+
+.right{
+	float:right;
+	align:top;
+}
+
+.card-container{
+	display: inline-block;
+}
+
+
+.card-d {
+	padding: 15px;
+    background: #91D8FD;
+ /*   border-left: 1px solid #f5f5f5;
+    border-top: 1px solid #f4f4f4;
+    border-right: 1px solid #fafafb;
+    border-bottom: 1px solid #e8e8e8;*/
+/*    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;*/
+/*    -moz-box-shadow: 0 2px 3px rgba(0,0,0,.05);
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,.05);
+    box-shadow: 0 2px 3px rgba(0,0,0,.05);
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;*/
+    height: 400px;	
+    /*width:200px;*/
+}
+
+.card-d h1{
+	color: #404d5f;
+	font-size: 8px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: bold;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+.card-d h2 {
+ 	 color: #202020;
+   	font-size: 14px;
+	font-family: 'Comfortaa', cursive;
+	letter-spacing: 1px;
+  	margin-top: 2px;
+
+}
+
+.card-d h3 {
+  color: #979ea9;
+  font-size: 35px;
+  font-family: 'Comfortaa', cursive;
+  opacity:0;
+}
+
+.card-d img {
+  width: 40%;
+  max-width: 240px;
+  min-width: 180px;	
+}
+
+.card-d img:hover {
+  box-shadow: 5px 5px 5px 5px rgba(0,0,0, 0.2);
+}
+
+.card-d:hover h3{
+  opacity: 1;
+}
+
+.card-n {
+	padding: 15px;
+    background: #1E3049;
+    height: 400px;	
+}
+
+.card-n h1{
+	color: #ffffff;
+	font-size: 8px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: bold;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+
+}
+
+.card-n h2 {
+  color: #b1b1b1;
+  	font-size: 14px;
+	font-family: 'Comfortaa', cursive;
+	/*font-weight: bold;*/
+	letter-spacing: 1px;
+	/*text-transform: uppercase;*/
+  margin-top: 2px;
+}
+
+.card-n h3 {
+  color: #979ea9;
+  font-size: 35px;
+  font-family: 'Comfortaa', cursive;
+  text-align: centered;
+  opacity: 0;
+ 
+}
+
+.card-n img {
+  width: 40%;
+  max-width: 240px;
+  min-width: 180px;	
+}
+
+.card-n img:hover {
+  opacity:.9;
+  box-shadow: 5px 5px 5px 5px rgba(0,0,0, 0.5);
+}
+
+.card-n:hover h3{
+  opacity:1;
+}

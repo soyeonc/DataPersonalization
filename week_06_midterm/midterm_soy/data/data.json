@@ -1,0 +1,122 @@
+{ "day": [{ 
+
+	"brand":"Andalou Naturals",
+	"productName":"1000 Roses Floral Toner",
+	"image":"toner.png",
+	"role":"toner",
+	"score":1,
+
+	"Ingredients": ""
+	},
+		{
+	"brand":"JJLabs",
+	"productName":"Vitamin C 20% Serum",
+	"image":"serum.png",
+	"role":"serum",
+	"score":2,
+
+	"Ingredients": ""
+	},
+		{
+	"brand":"Everyday Coconut",
+	"productName":"Facial Moisturizer",
+	"image":"lotion.png",
+	"role":"moisturizer",
+	"score":1,
+
+	"Ingredients":""
+	},
+
+			{
+	"brand":"Shiseido",
+	"productName":"Ultimate Sun Protection",
+	"image":"suns.png",
+	"role":"Sunscreen",
+	"score":6,
+
+	"Ingredients":""
+	},
+
+			{
+	"brand":"Chanel",
+	"productName":"CC Cream",
+	"image":"ccc.png",
+	"role":"CC Cream",
+	"score":4,
+
+	"Ingredients":""
+	},
+
+			{
+	"brand":"Clio",
+	"productName":"Gelpresso Pencil Gel Liner",
+	"image":"eyeliner.png",
+	"role":"CC Cream",
+	"score":6,
+
+	"Ingredients":""
+	}
+	],
+	
+
+	"night": [{ 
+
+	"brand":"Bioderma",
+	"productName":"Sebio H2O",
+	"image":"cwater.png",
+	"role":"cleansing water",
+	"score":1,
+
+	"Ingredients": ""
+	},
+	{
+
+	"brand":"NutriBiotic",
+	"productName":"Skin Cleanser",
+	"image":"cleanser.png",
+	"role":"facial cleanser",
+	"score":1,
+
+	"Ingredients": ""
+	},
+
+	{
+	"brand":"Andalou Naturals",
+	"productName":"1000 Roses Floral Toner",
+	"image":"toner.png",
+	"role":"Cream",
+	"score":2,
+	"Ingredients":""
+	},
+	{
+	"brand":"JJLabs",
+	"productName":"Vitamin C 20% Serum",
+	"image":"serum.png",
+	"role":"serum",
+	"score":2,
+
+	"Ingredients": ""
+	},
+			{
+	"brand":"Everyday Coconut",
+	"productName":"Facial Moisturizer",
+	"image":"lotion.png",
+	"role":"moisturizer",
+	"score":1,
+
+	"Ingredients":""
+	},
+
+		{
+	"brand":"Madecine mama's",
+	"productName":"All In One Healing Skin Cream",
+	"image":"bwax.png",
+	"role":"Cream",
+	"score":1,
+	"Ingredients":""
+	}
+
+]}
+
+
+
